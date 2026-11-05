@@ -1,0 +1,10 @@
+build/
+**/build/
+.svn/
+**/.svn/
+sdkconfig.old
+**/*.bin
+**/*.map
+**/*.elf
+.vscode/
+.idea/
