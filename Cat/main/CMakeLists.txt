@@ -1,2 +1,5 @@
-idf_component_register(SRCS "ioT_Smart_Pad_Cat_C6.c"
-                    INCLUDE_DIRS ".")
+idf_component_register(SRCS 
+                        "hx711_multi.c" 
+                        "main.c"
+                       INCLUDE_DIRS "."
+                       REQUIRES driver esp_timer)
